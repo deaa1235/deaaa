@@ -1,0 +1,269 @@
+ * {
+ 	z-index: 5;
+ 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 	margin: 0px;
+ }
+
+
+ video {
+ 	z-index: -1;
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: inline;
+ }
+
+
+
+ #upper_log {
+ 	width: 100%;
+ 	height: 10%;
+ 	background-color: rgb(75, 180, 255);
+ 	position: absolute;
+ 	top: 0%;
+ 	font-weight: bolder;
+ 	border-radius: 20px;
+ 	opacity: .7;
+ }
+
+
+
+ #lang {
+ 	width: 80px;
+ 	height: 80px;
+
+ 	background-color: transparent;
+
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 10%;
+
+ 	direction: ltr;
+ }
+
+ #lang img {
+ 	cursor: pointer;
+ }
+
+ #lang1,
+ #lang2 {
+ 	color: white;
+ 	text-decoration: none;
+ 	position: absolute;
+ 	left: 61%;
+ 	top: 2%;
+ 	display: none;
+ }
+
+
+ #upper_log:hover {
+ 	filter: blur(0px);
+ 	opacity: 0.9;
+ }
+
+ #choose {
+ 	padding: 15px;
+ 	background-color: black;
+ 	font-size: 30px;
+ 	position: absolute;
+ 	top: 15%;
+ 	left: 65%;
+ 	color: azure;
+ 	border-radius: 10px;
+
+ }
+
+ /*   images style section   */
+
+ #sea {
+ 	background-image: url('sea.png');
+ 	width: 17%;
+ 	height: 200px;
+ 	min-width: 100px;
+ 	max-width: 400px;
+ 	position: absolute;
+ 	top: 30%;
+ 	left: 60%;
+ 	border-radius: 75px 75px 75px 75px;
+ 	transition-duration: 0.8s;
+ }
+
+ #forest {
+ 	background-image: url('forest.png');
+ 	width: 17%;
+ 	height: 200px;
+ 	min-width: 100px;
+ 	max-width: 400px;
+ 	position: absolute;
+ 	top: 30%;
+ 	left: 80%;
+ 	border-radius: 75px 75px 75px 75px;
+ 	transition-duration: 0.8s;
+ }
+
+ #Archaeological_sites {
+ 	background-image: url('site.png');
+ 	width: 17%;
+ 	height: 200px;
+ 	min-width: 100px;
+ 	max-width: 400px;
+ 	position: absolute;
+ 	top: 70%;
+ 	left: 60%;
+ 	border-radius: 75px 75px 75px 75px;
+ 	transition-duration: 0.8s;
+ }
+
+
+ #city {
+ 	background-image: url('city.jpg');
+ 	width: 17%;
+ 	height: 200px;
+ 	position: absolute;
+ 	top: 70%;
+ 	max-width: 400px;
+ 	min-width: 100px;
+ 	left: 80%;
+ 	border-radius: 75px 75px 75px 75px;
+ 	transition-duration: 0.8s;
+ }
+
+ #sea .hidden_text {
+ 	font-size: large;
+ 	color: darkcyan;
+ 	font-weight: bold;
+ 	position: absolute;
+ 	left: 40%;
+ 	top: 90%;
+ 	display: none;
+ 	padding: 5px;
+ 	border-radius: 10px;
+ 	border: solid darkcyan 2px;
+ 	background-color: lavenderblush;
+ }
+
+ #forest .hidden_text {
+ 	position: absolute;
+ 	left: 40%;
+ 	top: 90%;
+ 	font-size: large;
+ 	color: forestgreen;
+ 	font-weight: bold;
+ 	display: none;
+ 	padding: 5px;
+ 	border-radius: 10px;
+ 	border: solid forestgreen 2px;
+ 	background-color: lavenderblush;
+ }
+
+ #Archaeological_sites .hidden_text {
+ 	position: absolute;
+ 	left: 20%;
+ 	top: 90%;
+ 	font-size: large;
+ 	color: chocolate;
+ 	font-weight: bold;
+ 	display: none;
+ 	padding: 5px;
+ 	border-radius: 10px;
+ 	border: solid chocolate 2px;
+ 	background-color: lavenderblush;
+ }
+
+ #city .hidden_text {
+ 	position: absolute;
+ 	left: 40%;
+ 	top: 90%;
+ 	font-size: large;
+ 	color: lightslategrey;
+ 	font-weight: bold;
+ 	display: none;
+ 	padding: 5px;
+ 	border-radius: 10px;
+ 	border: solid lightslategrey 2px;
+ 	background-color: lavenderblush;
+
+ }
+
+ #sea:hover,
+ #forest:hover,
+ #Archaeological_sites:hover,
+ #city:hover {
+ 	transform: perspective(500px) translate3d(0, 0, 100px);
+ 	border-radius: 30px 30px 30px 30px;
+ }
+
+ #sea:hover .hidden_text,
+ #forest:hover .hidden_text,
+ #Archaeological_sites:hover .hidden_text,
+ #city:hover .hidden_text {
+ 	display: initial;
+ }
+
+ /*-----------------------------------------------------*/
+
+
+ #greeting {
+ 	position: absolute;
+ 	color: aliceblue;
+ 	padding: 10px;
+ 	width: 50%;
+ 	height: 50%;
+ 	top: 100px;
+ 	left: 50px;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ 	text-shadow: black 10px 10px 10px;
+
+ }
+
+ /* -----------------------------------------------------   achievements */
+
+ #achievements {
+ 	width: 100%;
+ 	height: 300px;
+ 	margin: 0px;
+ 	background-color: rgb(75, 180, 255);
+ }
+
+ #certification {
+ 	background-image: url(certificate.png);
+ 	width: 144px;
+ 	height: 144px;
+ 	position: absolute;
+ 	top: 130%;
+ 	left: 40%;
+ }
+
+ /* -----------------------------------------------------  analysis*/
+
+ #analysis {
+ 	width: 100%;
+ 	height: 800px;
+ 	margin: 0px;
+ 	background-color: rgb(69, 162, 229);
+ }
+
+
+ /* -----------------------------------------------------  footer */
+
+ #footer {
+ 	width: 100%;
+ 	height: 220px;
+ 	margin: 0px;
+ 	background-color: rgb(53, 124, 175);
+ }
+
+ #clock {
+ 	width: 258px;
+ 	height: 90px;
+ 	position: relative;
+ 	bottom: 42%;
+ 	padding: 4px;
+ 	text-align: center;
+ 	left: 35%;
+ 	background-color: bisque;
+ 	color: black;
+ 	font-size: 21px;
+ 	border-radius: 10px;
+ }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="AR">
+    <link rel="stylesheet" href="intro_style.css">
+
+    <title> Tourist trip management </title>
+    <style>
+        * {
+            direction: rtl;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="upper_log"> talk
+
+
+
+        <div id="lang" onclick="show()">
+
+            <img src="language.png" alt=" language" title="select your language">
+
+            <a href="intro_EN.html" id="lang1" title="English language"> English</a>
+            <a href="intro_AR.html" id="lang2" style="top:30%;" title="Arabic language"> Arabic</a>
+
+        </div>
+
+    </div>
+
+
+    <video muted loop autoplay>
+
+        <source src="background.mp4">
+
+    </video>
+
+
+    <div id="greeting">
+
+        اكتشف العالم مع موقعنا. <br>
+        خصومات كبيرة على المنازل والفنادق ورحلات الطيران وتأجير السيارات وسيارات الأجرة وغير ذلك الكثير<br> <br>
+        <span style="font-size: 50px;">كل ما تحتاجه.<br>
+            أداة سفر عمل واحدة.</span>
+    </div>
+
+
+    <div id="choose" style="left : 70%;">
+        اختر أين تريد الذهاب :
+    </div>
+    <!--              images section            -->
+
+    <a href="sea_page" title="بحر" id="sea">
+        <p class="hidden_text"> بحر </p>
+    </a>
+
+    <a href=" forest_page" title="غابة" id="forest">
+        <p class="hidden_text"> غابة </p>
+    </a>
+
+    <a href="Archaeological_sites_page" title="المواقع الأثرية" id="Archaeological_sites">
+
+        <p class="hidden_text"> المواقع الأثرية</p>
+    </a>
+    <a href="city_page" title="مدن" id="city">
+
+        <p class="hidden_text"> مدن</p>
+    </a>
+    <div id="certification" title="certification">
+    </div>
+    <!--  achievements section  -->
+
+    <div id="achievements" style="direction: rtl;"> هاد القسم منحكي فيو عن انجازات الموقع , متل عدد الشركات المتعاقد
+        معاها
+        و ترتيب الموقع و تقييمو , عدد الزيارات و المستفيدين من الخدمة
+
+    </div>
+
+    <!--  analysis section  -->
+
+    <div id="analysis" style="direction: rtl;">
+        هاد القسم منحط فيو المعلومات الاحصائية متل المكان الاكتر زيارة , المكان الاعلى تقييم ...
+    </div>
+
+    <!--  footer section  -->
+
+    <div id="footer"> footer: <br><br>
+
+        <img src="support.png"> support / rate us
+        <div id="clock" style="right: 36%;"></div>
+    </div>
+
+    <script src="intro_js.js"></script>
+</body>
+
+</html>
